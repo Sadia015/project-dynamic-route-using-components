@@ -15,7 +15,7 @@ const CountryDetailCard = ({name,population,capital}: Props1) => {
       <div className="text-4xl py-3"><strong className='text-black'>Population</strong> : {population}</div>
 
       <button className="bg-black ml-40 mt-10 text-lg px-6 py-2 rounded-full duration-100 text-white hover:ease-linear hover:scale-110 ">
-        <Link href={"/countries"}> Back</Link>{" "}
+        <Link href={"/country"}> Back</Link>{" "}
       </button>
     </div>
   )
